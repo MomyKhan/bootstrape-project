@@ -1,0 +1,67 @@
+a {
+    color: red;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.getting{
+    background: url(../images/lesly-juarez-DFtjXYd5Pto-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(97, 0, 0, 0.5);
+}
+.getting p{
+    font-size: 40px;
+
+}
+
+.about_banner{
+    background: url(../images/viktor-forgacs-jBTMrR6Q334-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    position: relative;
+    max-width: 100%;
+    height: 1200px;
+}
+.h-p{
+    position:absolute;
+    top: 180px;
+    left: 60px;
+    font-weight: bold;
+}
+.what_we_do img{
+    margin-top: -150px;
+}
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }

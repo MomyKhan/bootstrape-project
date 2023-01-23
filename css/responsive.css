@@ -1,0 +1,36 @@
+@media screen and  (max-width: 767px){
+    .news_letter input{
+        margin-bottom: 10px;
+
+    }
+    .about_banner .h-p {
+        left: 5px;
+       
+    }
+    .about_banner .h-p h2{
+        font-size: 30px;
+       
+    }
+    .what_we_do .content{
+        margin-bottom: 160px;
+    }
+    .pricing .card{
+        width: 75%;
+        margin: 20px auto;
+    }
+    .blog-section .card{
+        width: 75%;
+        margin: 20px auto;
+    }
+    .service .service-text{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+}
+
+@media screen and  (max-width: 500px){
+    
+    
+}
+
